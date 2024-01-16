@@ -1,0 +1,242 @@
+{
+    "object": "list",
+    "results": [
+        {
+            "object": "page",
+            "id": "4b922677-40a2-4304-add9-738dc3756a9e",
+            "created_time": "2024-01-16T12:37:00.000Z",
+            "last_edited_time": "2024-01-16T12:37:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "e48612ec-9251-43cd-8468-7eaf01befa97"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "e48612ec-9251-43cd-8468-7eaf01befa97"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "c7618ad1-e853-4cbe-b410-c77d9b0d1a0a"
+            },
+            "archived": false,
+            "properties": {
+                "Deltagere": {
+                    "id": "G%3Cgp",
+                    "type": "number",
+                    "number": 11
+                },
+                "Kvinder": {
+                    "id": "L%7BGi",
+                    "type": "number",
+                    "number": 21
+                },
+                "Dato": {
+                    "id": "TY%7D%5E",
+                    "type": "date",
+                    "date": {
+                        "start": "2024-01-16",
+                        "end": null,
+                        "time_zone": null
+                    }
+                },
+                "Nye deltagere": {
+                    "id": "ZGzP",
+                    "type": "number",
+                    "number": 1
+                },
+                "M\u00e6nd": {
+                    "id": "%7Bbz%60",
+                    "type": "number",
+                    "number": 222
+                },
+                "": {
+                    "id": "title",
+                    "type": "title",
+                    "title": []
+                }
+            },
+            "url": "https://www.notion.so/4b92267740a24304add9738dc3756a9e",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "b27a5ef7-e351-4672-a761-cb6dafb72bcd",
+            "created_time": "2024-01-15T12:25:00.000Z",
+            "last_edited_time": "2024-01-15T12:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "c936e721-9fc6-48e0-8e53-16ac47c770ee"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "c936e721-9fc6-48e0-8e53-16ac47c770ee"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "c7618ad1-e853-4cbe-b410-c77d9b0d1a0a"
+            },
+            "archived": false,
+            "properties": {
+                "Deltagere": {
+                    "id": "G%3Cgp",
+                    "type": "number",
+                    "number": null
+                },
+                "Kvinder": {
+                    "id": "L%7BGi",
+                    "type": "number",
+                    "number": null
+                },
+                "Dato": {
+                    "id": "TY%7D%5E",
+                    "type": "date",
+                    "date": null
+                },
+                "Nye deltagere": {
+                    "id": "ZGzP",
+                    "type": "number",
+                    "number": null
+                },
+                "M\u00e6nd": {
+                    "id": "%7Bbz%60",
+                    "type": "number",
+                    "number": null
+                },
+                "": {
+                    "id": "title",
+                    "type": "title",
+                    "title": []
+                }
+            },
+            "url": "https://www.notion.so/b27a5ef7e3514672a761cb6dafb72bcd",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "c305d3a5-b99c-4f11-abe1-69768f22557f",
+            "created_time": "2024-01-15T12:25:00.000Z",
+            "last_edited_time": "2024-01-15T12:36:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "c936e721-9fc6-48e0-8e53-16ac47c770ee"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "c936e721-9fc6-48e0-8e53-16ac47c770ee"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "c7618ad1-e853-4cbe-b410-c77d9b0d1a0a"
+            },
+            "archived": false,
+            "properties": {
+                "Deltagere": {
+                    "id": "G%3Cgp",
+                    "type": "number",
+                    "number": 102
+                },
+                "Kvinder": {
+                    "id": "L%7BGi",
+                    "type": "number",
+                    "number": 999
+                },
+                "Dato": {
+                    "id": "TY%7D%5E",
+                    "type": "date",
+                    "date": {
+                        "start": "2024-01-16",
+                        "end": null,
+                        "time_zone": null
+                    }
+                },
+                "Nye deltagere": {
+                    "id": "ZGzP",
+                    "type": "number",
+                    "number": 304
+                },
+                "M\u00e6nd": {
+                    "id": "%7Bbz%60",
+                    "type": "number",
+                    "number": 101
+                },
+                "": {
+                    "id": "title",
+                    "type": "title",
+                    "title": []
+                }
+            },
+            "url": "https://www.notion.so/c305d3a5b99c4f11abe169768f22557f",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "2ec6b9b0-3338-4464-93f3-bd825d1b71e9",
+            "created_time": "2024-01-15T12:25:00.000Z",
+            "last_edited_time": "2024-01-15T12:36:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "c936e721-9fc6-48e0-8e53-16ac47c770ee"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "c936e721-9fc6-48e0-8e53-16ac47c770ee"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "c7618ad1-e853-4cbe-b410-c77d9b0d1a0a"
+            },
+            "archived": false,
+            "properties": {
+                "Deltagere": {
+                    "id": "G%3Cgp",
+                    "type": "number",
+                    "number": 99
+                },
+                "Kvinder": {
+                    "id": "L%7BGi",
+                    "type": "number",
+                    "number": 999
+                },
+                "Dato": {
+                    "id": "TY%7D%5E",
+                    "type": "date",
+                    "date": {
+                        "start": "2024-01-15",
+                        "end": null,
+                        "time_zone": null
+                    }
+                },
+                "Nye deltagere": {
+                    "id": "ZGzP",
+                    "type": "number",
+                    "number": 234
+                },
+                "M\u00e6nd": {
+                    "id": "%7Bbz%60",
+                    "type": "number",
+                    "number": 99
+                },
+                "": {
+                    "id": "title",
+                    "type": "title",
+                    "title": []
+                }
+            },
+            "url": "https://www.notion.so/2ec6b9b03338446493f3bd825d1b71e9",
+            "public_url": null
+        }
+    ],
+    "next_cursor": null,
+    "has_more": false,
+    "type": "page_or_database",
+    "page_or_database": {},
+    "request_id": "32f8c1c9-5b71-45d4-9710-189b75d3c8fa"
+}
