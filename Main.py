@@ -29,6 +29,7 @@ def create_page(data: dict):
         print(f"HTTP-fejl: {err.response.status_code} - {err.response.text}")
     except Exception as e:
         print(f"En fejl opstod: {e}")
+         
     
     # print(res.status_code)
     # return res
