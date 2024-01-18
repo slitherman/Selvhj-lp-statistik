@@ -1,6 +1,8 @@
 import requests
 import json
-from datetime import datetime
+import schedule
+import time
+from datetime import  datetime
 from crontab import CronTab
 import os
 
@@ -21,7 +23,7 @@ headers = {
 }
 
 def dumps_data(filepath, dictionary: dict): 
-    with open(filepath, 'w', encoding='UTF8') as json_file:
+    with open(filepath, 'w', encoding='UTF-8') as json_file:
         json.dump(dictionary, json_file, indent=4)
 
 def get_from_source_and_post_to_destination():
@@ -72,18 +74,24 @@ def get_from_source_and_post_to_destination():
     except Exception as e:
         print(f"En fejl opstod ved opdatering af statistik: {e}")
 
-get_from_source_and_post_to_destination()
 
-script_path = os.path.abspath(__file__)
 
-my_cron = CronTab()
+#script_path = os.path.abspath(__file__)
 
-job = my_cron.new(command=f"python {script_path}")
+#my_cron = CronTab()
+
+#job = my_cron.new(command=f"python {script_path}")
 
 # Kører dagligt ved midnat, hver dag i måneden, hver måned og hver dag i ugen
-job.setall('0 0 * * *')
+#job.setall('0 0 * * *')
 
-cron_file_path = 'C:\\Cronjobs\\my_cron_file'
+#cron_file_path = 'C:\\Cronjobs\\my_cron_file'
 
-my_cron.write(filename=cron_file_path)
+# my_cron.write(filename=cron_file_path)
+schedule.every().day.at("00:00").do(get_from_source_and_post_to_destination)
+while True:
+    schedule.run_pending()
+
+
+   
 
